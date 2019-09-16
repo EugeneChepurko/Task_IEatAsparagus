@@ -21,4 +21,16 @@ input,
 select,
 textarea {
     max-width: 280px;
+    border-radius: 3px;
+}
+
+table {
+    border: 2px double #9b9b9b;
+    vertical-align: middle;
+    text-align: center;
+}
+
+td, th {
+    border: 1px solid #aaaaaa;
+    padding-right: 40px;
 }
