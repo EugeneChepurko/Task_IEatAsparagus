@@ -6,9 +6,9 @@
     @using (Html.BeginForm("Index", "Home", FormMethod.Post))
     {
         @Html.Label("Your name:") <br />
-        <input type="text" name="Name" /> <br />
+        @Html.TextBox("Name") <br />
         @Html.Label("Your email:") <br />
-        <input type="text" name="Email" /> <br />
+        @Html.TextBox("Email") <br />
         <input type="submit" value="Я съел спаржу!" />
     }
     <br />
